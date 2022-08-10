@@ -4,6 +4,7 @@
 }
 
 body{
+    
     background: #ffedd5;
     font-family: 'Roboto', sans-serif;
 
@@ -16,8 +17,6 @@ h1,h2,h3, .price{
     text-transform: uppercase;
     font-family:'Roboto Serif', serif;
     color: #202c2a;
-
-
 }
 
 header h1{
@@ -82,6 +81,6 @@ li .details{
 }
 
 
-
-
-
+.description{
+text-align:justify;
+}
