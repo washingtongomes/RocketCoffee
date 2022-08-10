@@ -25,6 +25,13 @@ header h1{
     font-size: 28px;
     line-height: 33px;
 
+}
+header h1:hover{
+    z-index: 1;
+    width:max-content;
+    background-color: black;
+    color: #fff;
+    border-radius: 13px;
 
 }
 
