@@ -86,20 +86,13 @@ text-align:justify;
 }
 
 
-
 header img{
     width: 80px;
     margin-top: 5px;
     margin-left: 0px;
     position: absolute;
     z-index: -1;
-  }
-
-  img {
-    width: 50px;
-    height: 100px;
-    background-color:#ffedd5;
-    position: relative;
+   
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
@@ -107,8 +100,9 @@ header img{
   
   @keyframes example {
     0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:300px; top:300px;}
-    75%  {left:0px; top:300px;}
-    100% {left:0px; top:0px;}
+    25%  {left:450px; top:0px;}
+    50%  {left:450px; top:300px;}
+    75%  {left:150px; top:300px;}
+    100% {left:150px; top:0px;}
+
   }
