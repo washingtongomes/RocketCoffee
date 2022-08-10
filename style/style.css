@@ -100,9 +100,9 @@ header img{
   
   @keyframes example {
     0%   {left:0px; top:0px;}
-    25%  {left:450px; top:0px;}
-    50%  {left:450px; top:300px;}
-    75%  {left:150px; top:300px;}
-    100% {left:150px; top:0px;}
+    25%  {left:860px; top:0px;}
+    50%  {left:860px; top:300px;}
+    75%  {left:600px; top:300px;}
+    100% {left:600px; top:0px;}
 
   }
