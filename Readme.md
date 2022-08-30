@@ -10,7 +10,9 @@
  
  Data |Nome | Status 
 ---|---|---
-10/08 | Washington | ok 
+10/08 | Washington      | ok 
+20/08 | Animação criada | ok
+ 
 
 
 Link 

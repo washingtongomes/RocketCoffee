@@ -10,6 +10,18 @@ body{
 
 }
 
+  .ease {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 30px;
+    animation-name: EX02;
+    animation-duration: 10s;
+
+    
+}
+
 ul{
     list-style: none;
 }
@@ -45,15 +57,18 @@ header p{
     line-height: 16px;
     color: rgba(0,0,0,0.7);
 
+
 }
 
 header h1 span{
     color: #995000;
 
+
 }
 
 section{
     margin-bottom: 24px;
+
 }
 section h2{
     background-color: #fed7aa;
@@ -104,7 +119,10 @@ header img{
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+
   }
+
+
   
   @keyframes example {
     0%   {left:0px; top:0px;}
@@ -114,3 +132,66 @@ header img{
     100% {left:600px; top:0px;}
 
   }
+
+
+
+
+  .ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: ##282A36;
+    position: relative;
+    animation-name: ball;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+
+  }
+
+  /*@keyframes ball{
+    from{
+        background-color: #e4892e;
+    }
+    to{
+        background-color: #ffedd5;
+    }
+  }
+*/
+  @keyframes ball{
+    0%{
+        background-color: #e4892e;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: aquamarine;
+        left: 1280px;
+        top: 0;
+        
+    }
+    50%{
+        background-color: blue;
+        left: 1280px;
+        top: 700px;
+        
+    }
+    75%{
+        background-color: aqua;
+        left: 0;
+        top: 700px;
+        
+    }
+    100%{
+        background-color: #ffedd5;
+        left: 0;
+        top: 0;
+    }
+  }
+
+  @keyframes EX02{
+    from{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #995000;
+    }
+  }
+
