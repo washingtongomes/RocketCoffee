@@ -58,10 +58,10 @@ header p{
 
 }
 
+
+
 header h1 span{
     color: #995000;
-
-
 }
 
 section{
@@ -75,10 +75,13 @@ section h2{
     margin-bottom: 24px;
     font-size: 18px;
 }
+
+
 ul li{
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     display: flex;
 }
+
  li .details{
     max-width: 240px;
 
@@ -95,8 +98,8 @@ li .details{
 
 }
 .details p{
-    color: rgba(0,0,0,0.6);
-    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    font-size: 18px;
     line-height: 21px;
 }
 

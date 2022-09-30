@@ -1,20 +1,29 @@
 # Meu projeto Rocketseat
 
 - Site RocketCoffee
-* Alterando e inserindo informações...
 
-**Atualizado em 10/08**
+![preview](./.github/previewCoffee.png)
 
- Tabela em Markdown
- ---
+[Clique aqui para acessar o site](https://washingtongomes.github.io/RocketCoffee)
+
+
+
+
+
  
- Data |Nome | Status 
+**Atualizado em 10/08**
+---
+  Data |Nome | Status 
 ---|---|---
 10/08 | Washington      | ok 
 20/08 | Animação criada | ok
- 
+30/09 | Melhoria Readme | ok
 
 
-Link 
+## Contato :
 
-[Acesso ao Site:](htps://menucoffee.vercel.app/)
+[Site vercel:](https://menucoffee.vercel.app/)
+[Projetos - github](https://www.github.com/washingtongomes)
+    
+wsgomes600@gmail.com
+
